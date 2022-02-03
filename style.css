@@ -20,18 +20,18 @@ img {
 h1 {
   font-size: 40px;
   font-weight: 300;
-  font-family: sans-serif;
+  font-family: 'Quintessential', cursive;
 }
 
 #Name {
   font-size: 50px;
-  font-family: cursive;
+  font-family: 'Quintessential', cursive;
 }
 
 h2 {
   font-size: 30px;
   font-weight: 300;
-  font-family: monospace;
+  font-family: 'Quintessential', cursive;
 }
 
 #Bio {
@@ -49,4 +49,23 @@ h2 {
 .parallax-inner {
   display: table-cell;
   vertical-align: middle;
+}
+
+.tab {
+  top: 10px;
+  list-style: none;
+  position: absolute;
+  z-index: 10;
+right: 300px;
+cursor: pointer;
+}
+
+.links {
+  float: left;
+  padding-top: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-bottom: 5px;
+  font-family: cursive;
+  font-size: 20px;
 }
